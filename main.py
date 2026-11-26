@@ -3,14 +3,14 @@
 
 Writes a single one-line office joke to /output/entry.txt: the office
 printer only ever jams when the document matters most, so the machine
-that never works is jokingly the most reliable employee in the building.
+that never works has been named Employee of the Month.
 
 The line is written to be judged on the competition's own brief:
   1. It is a single-line joke about office life, not a story or slogan.
   2. It turns on a real detail of office life: the printer that jams
      at the worst moment.
-  3. It lands its laugh in the last few words ("the most reliable
-     employee we have"), the turn arriving on the final beat.
+  3. It lands its laugh in the last few words ("Employee of the Month"),
+     the turn arriving on the final beat.
   4. It is clear on one reading, with no setup that needs explaining.
   5. It uses fresh wording rather than a joke already going round the
      internet.
@@ -23,8 +23,8 @@ import os
 
 LINE = (
     "Our printer only jams when the document is urgent, confidential, "
-    "and due in five minutes \u2014 it is the most reliable employee "
-    "we have."
+    "and due in five minutes \u2014 so naturally, it is Employee of "
+    "the Month."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
